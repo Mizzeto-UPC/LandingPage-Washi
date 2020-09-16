@@ -43,14 +43,17 @@
 :: 29.0 PREVIEW AREA CSS
 ****************************** */
 
+
 /* ******************************
 :: 1.0 WEB FONTS
 ****************************** */
+
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap');
 
 /* ******************************
 :: 2.0 IMPORT ALL CSS
 ****************************** */
+
 @import url(bootstrap.min.css);
 @import url(all.min.css);
 @import url(../font/flaticon.css);
@@ -63,6 +66,7 @@
 /* ******************************
 :: 3.0 GLOBAL CSS
 ****************************** */
+
 * {
     margin: 0;
     padding: 0;
@@ -159,7 +163,7 @@ a:focus,
     box-shadow: none;
 }
 
-.text-body > a {
+.text-body>a {
     text-decoration: underline;
     color: #212529;
 }
@@ -180,9 +184,11 @@ img {
     max-width: 100%;
 }
 
+
 /* ******************************
 :: 4.0 COMMON CSS
 ****************************** */
+
 .fw-3 {
     font-weight: 300;
 }
@@ -236,7 +242,7 @@ img {
     color: #666 !important;
 }
 
-.featured-icon > span::before {
+.featured-icon>span::before {
     font-size: 4.25rem;
     line-height: 1;
     color: #777;
@@ -260,20 +266,22 @@ img {
     outline: none;
 }
 
+
 /*SECTION HEADING*/
+
 .section-heading {
     margin-bottom: 80px;
 }
 
-.section-heading > span {
+.section-heading>span {
     color: #222;
 }
 
-.section-heading > h2 {
+.section-heading>h2 {
     position: relative;
 }
 
-.section-heading > h2::after {
+.section-heading>h2::after {
     position: absolute;
     content: '';
     height: 2px;
@@ -285,13 +293,15 @@ img {
     transform: translateX(-50%);
 }
 
-.homepage-5 .features-area .section-heading > h2::after,
-.contact-page .contact-area .section-heading > h2::after {
+.homepage-5 .features-area .section-heading>h2::after,
+.contact-page .contact-area .section-heading>h2::after {
     left: 0;
     transform: inherit;
 }
 
+
 /*SECTION PADDING*/
+
 .pt_0 {
     padding-top: 0;
 }
@@ -312,7 +322,9 @@ img {
     padding: 180px 0;
 }
 
+
 /*BUTTONS*/
+
 .btn {
     font-size: 15px;
     font-weight: 500;
@@ -410,7 +422,9 @@ img {
     margin-bottom: 10px;
 }
 
+
 /*BG SHAPE*/
+
 .shapes-container {
     position: absolute;
     top: 0;
@@ -432,8 +446,8 @@ img {
     background: linear-gradient(-47deg, #8731E8 0%, #4528DC 100%);
     bottom: 0;
     right: 0;
-    -webkit-transform: translate(35%,-28%) rotate(-35deg);
-    transform: translate(35%,-28%) rotate(-35deg);
+    -webkit-transform: translate(35%, -28%) rotate(-35deg);
+    transform: translate(35%, -28%) rotate(-35deg);
     z-index: 0;
 }
 
@@ -443,7 +457,9 @@ img {
     }
 }
 
+
 /*SHAPE DIVIDER*/
+
 .shape-bottom {
     position: absolute;
     top: auto;
@@ -460,7 +476,9 @@ img {
     transform: rotate(180deg);
 }
 
+
 /*BACKGROUND OVERLAY*/
+
 .bg-overlay,
 .overlay-dark {
     position: relative;
@@ -489,10 +507,13 @@ img {
     z-index: -1;
 }
 
+
 /*BACKGROUND COLORS*/
+
 .bg-gray {
     background-color: #f6f9fe;
 }
+
 .bg-inherit {
     background: inherit !important;
 }
@@ -505,8 +526,10 @@ img {
     background: linear-gradient(-47deg, #8731E8 0%, #4528DC 100%);
 }
 
+
 /*SOCIAL ICONS*/
-.social-icons > a {
+
+.social-icons>a {
     margin: 5px;
     width: 45px;
     height: 45px;
@@ -527,27 +550,29 @@ img {
     transition: all 0.3s ease 0s;
 }
 
-.social-icons > a:hover svg:first-child {
+.social-icons>a:hover svg:first-child {
     margin-top: -45px;
 }
 
-.social-icons > a.facebook {
+.social-icons>a.facebook {
     background-color: #3b5999 !important;
 }
 
-.social-icons > a.twitter {
+.social-icons>a.twitter {
     background-color: #55acee !important;
 }
 
-.social-icons > a.google-plus {
+.social-icons>a.google-plus {
     background-color: #dd4b39 !important;
 }
 
-.social-icons > a.vine {
+.social-icons>a.vine {
     background-color: #00b489 !important;
 }
 
+
 /*BACKGROUND IMAGES*/
+
 .welcome-area {
     background: rgba(0, 0, 0, 0) url("../img/bg/welcome-bg.jpg") no-repeat scroll center center / cover;
 }
@@ -612,9 +637,11 @@ img {
     background: rgba(0, 0, 0, 0) url("../img/preview/preview-mockup.png") no-repeat fixed center center / cover;
 }
 
+
 /* ******************************
 :: 5.0 PRELOADER AREA CSS
 ****************************** */
+
 .preloader-main {
     position: fixed;
     height: 100%;
@@ -705,7 +732,6 @@ img {
         -webkit-transform: translateX(0px);
         transform: translateX(0px);
     }
-
     50% {
         -webkit-transform: translateX(70px);
         transform: translateX(70px);
@@ -718,16 +744,17 @@ img {
         -webkit-transform: translateX(0px);
         transform: translateX(0px);
     }
-
     50% {
         -webkit-transform: translateX(70px);
         transform: translateX(70px);
     }
 }
 
+
 /* ******************************
 :: 6.0 SCROLL TO TOP AREA CSS
 ****************************** */
+
 #scrollUp {
     position: fixed;
     right: 2%;
@@ -735,7 +762,7 @@ img {
     height: 45px;
     width: 40px;
     border-radius: 4px;
-    background-color: rgba(35,35,35,0.65);
+    background-color: rgba(35, 35, 35, 0.65);
     text-align: center;
     cursor: pointer;
     z-index: 500;
@@ -744,7 +771,7 @@ img {
     transition: all 0.4s ease-in-out 0s;
 }
 
-#scrollUp > svg {
+#scrollUp>svg {
     display: block;
     height: 100%;
     font-size: 22px;
@@ -756,9 +783,11 @@ img {
     background-color: #666;
 }
 
+
 /* ******************************
 :: 7.0 HEADER AREA CSS
 ****************************** */
+
 .navbar {
     position: absolute;
     top: 0;
@@ -822,7 +851,9 @@ img {
     display: inline;
 }
 
+
 /*NAVBAR DARK*/
+
 .navbar-dark .navbar-nav .nav-link {
     color: #fff;
 }
@@ -855,110 +886,118 @@ img {
 
 
 /*---------- bootstrap nav custom hover ----------*/
+
 .dropdown-menu {
-  border: 0;
-  padding: 0.625rem 0;
-  margin: 0;
-  -webkit-transition: .3s;
-  -o-transition: .3s;
-  transition: .3s;
+    border: 0;
+    padding: 0.625rem 0;
+    margin: 0;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
 }
 
-.dropdown-menu > li {
-  padding: 0 0.625rem;
+.dropdown-menu>li {
+    padding: 0 0.625rem;
 }
 
-.dropdown > .dropdown-menu:before {
-  content: '';
-  position: absolute !important;
-  top: -10px;
-  right: auto;
-  bottom: auto;
-  left: 10px;
-  width: 0;
-  height: 0;
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
-  border-bottom: 10px solid #fff;
+.dropdown>.dropdown-menu:before {
+    content: '';
+    position: absolute !important;
+    top: -10px;
+    right: auto;
+    bottom: auto;
+    left: 10px;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #fff;
 }
 
-.dropdown-submenu > .dropdown-menu:before {
-  content: '';
-  position: absolute !important;
-  top: 30px;
-  right: auto;
-  bottom: auto;
-  left: -10px;
-  width: 0;
-  height: 0;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
-  border-right: 10px solid #fff;
+.dropdown-submenu>.dropdown-menu:before {
+    content: '';
+    position: absolute !important;
+    top: 30px;
+    right: auto;
+    bottom: auto;
+    left: -10px;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid #fff;
 }
 
 .dropdown-item {
-  padding-top: 0.625rem;
-  padding-bottom: 0.625rem;
-  padding-right: 0.625rem;
-  padding-left: 0.625rem;
-  text-transform: uppercase;
-  font-size: 0.8125rem;
-  font-weight: 700;
-  color: #2c2e30;
-  -webkit-transition: .3s;
-  -o-transition: .3s;
-  transition: .3s;
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+    padding-right: 0.625rem;
+    padding-left: 0.625rem;
+    text-transform: uppercase;
+    font-size: 0.8125rem;
+    font-weight: 700;
+    color: #2c2e30;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
 }
 
-.dropdown-item.active, .dropdown-item:active {
-  background: #f8f9fa;
+.dropdown-item.active,
+.dropdown-item:active {
+    background: #f8f9fa;
 }
 
 .dropdown-divider {
-  border-color: #8d98b7;
+    border-color: #8d98b7;
 }
 
 .dropdown-submenu {
-  position: relative;
+    position: relative;
 }
 
-.dropdown-submenu > .dropdown-menu {
-  top: 0;
-  left: 100%;
-  margin-top: -6px;
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
 }
+
 
 /*  mainmenu caret */
+
 .dropdown-toggle:after {
-  margin-left: 4px;
-  vertical-align: 1px;
-  border-top: 5px solid;
-  border-right: 5px solid transparent;
-  border-left: 5px solid transparent;
-  color: #d3d3d3;
-  -webkit-transition: .3s;
-  -o-transition: .3s;
-  transition: .3s;
+    margin-left: 4px;
+    vertical-align: 1px;
+    border-top: 5px solid;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+    color: #d3d3d3;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
 }
 
+
 /*  submenu cater */
+
 .dropdown-submenu .dropdown-toggle:after {
-  position: absolute;
-  right: 24px;
-  top: 20px;
-  color: #d3d3d3;
+    position: absolute;
+    right: 24px;
+    top: 20px;
+    color: #d3d3d3;
 }
 
 .dropdown-submenu:hover .dropdown-toggle:after {
-  text-decoration: underline;
-  -webkit-transform: rotate(-90deg);
-      -ms-transform: rotate(-90deg);
-          transform: rotate(-90deg);
+    text-decoration: underline;
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
 }
+
 
 /* ******************************
 :: 8.0 WELCOME AREA CSS
 ****************************** */
+
 .welcome-area {
     height: 800px;
     z-index: 1;
@@ -970,10 +1009,9 @@ img {
 }
 
 @media (min-width: 992px) {
-    .download-page .welcome-intro > h1 {
+    .download-page .welcome-intro>h1 {
         font-size: 3.8em;
     }
-
     .download-page .welcome-intro p {
         font-size: 16px;
     }
@@ -1024,7 +1062,6 @@ img {
         transform: scale(1);
         opacity: 1;
     }
-
     to {
         -webkit-transform: scale(1.5);
         transform: scale(1.5);
@@ -1038,7 +1075,6 @@ img {
         transform: scale(1);
         opacity: 1;
     }
-
     to {
         -webkit-transform: scale(1.5);
         transform: scale(1.5);
@@ -1064,14 +1100,17 @@ img {
     z-index: -1;
 }
 
+
 /* ***********************************
 :: 8.1 WELCOME AREA HOMEPAGE-3 CSS
 **************************************/
+
 @media (min-width: 992px) {
     .homepage-2 .welcome-thumb {
         max-width: 400px;
     }
 }
+
 .homepage-3 .welcome-area .subscribe-form {
     position: relative;
     display: block;
@@ -1098,14 +1137,16 @@ img {
     transform: scale(1.05);
 }
 
+
 /* ***********************************
 :: 8.2 WELCOME AREA HOMEPAGE-4 CSS
 **************************************/
+
 .homepage-4 .welcome-thumb {
     max-width: 100%;
 }
 
-.homepage-4 .welcome-thumb > img {
+.homepage-4 .welcome-thumb>img {
     position: relative;
     -webkit-animation: bounceHero 3s infinite;
     animation: bounceHero 3s infinite;
@@ -1115,11 +1156,9 @@ img {
     0% {
         top: 0px;
     }
-
     50% {
         top: 25px;
     }
-
     100% {
         top: 0px;
     }
@@ -1129,19 +1168,19 @@ img {
     0% {
         top: 0px;
     }
-
     50% {
         top: 25px;
     }
-
     100% {
         top: 0px;
     }
 }
 
+
 /* ***********************************
 :: 8.3 WELCOME AREA HOMEPAGE-6 CSS
 **************************************/
+
 .homepage-6 .shape-bottom {
     -webkit-transform: rotate(180deg);
     transform: rotate(180deg);
@@ -1159,9 +1198,11 @@ img {
     left: 50%;
 }
 
+
 /* ******************************
 :: 9.0 COUNTER AREA CSS
 ****************************** */
+
 .single-counter {
     position: relative;
 }
@@ -1189,9 +1230,11 @@ img {
     -webkit-text-fill-color: transparent;
 }
 
+
 /* ******************************
 :: 10.0 FEATURES AREA CSS
 ****************************** */
+
 .features-slider-wrapper {
     padding: 67px 23px 90px 26px;
     background-size: 100%;
@@ -1217,9 +1260,11 @@ img {
     box-shadow: 0 1rem 3rem rgba(31, 45, 61, .125) !important;
 }
 
+
 /* ******************************
 :: 11.0 SERVICE AREA CSS
 ****************************** */
+
 .service-icon span {
     height: 54px;
     width: 54px;
@@ -1237,14 +1282,16 @@ img {
     transition: all 0.3s ease 0s;
 }
 
-.service-list.style-two > li {
+.service-list.style-two>li {
     list-style: disc;
     margin-left: 1rem;
 }
 
+
 /* ******************************
 :: 12.0 DISCOVER AREA CSS
 ****************************** */
+
 .list-box .icon {
     color: #764fe0;
 }
@@ -1255,9 +1302,11 @@ img {
     }
 }
 
+
 /* ******************************
 :: 13.0 WORK AREA CSS
 ****************************** */
+
 .single-work {
     position: relative;
 }
@@ -1293,9 +1342,11 @@ img {
     }
 }
 
+
 /* ******************************
 :: 14.0 SCREENSHOTS AREA CSS
 ****************************** */
+
 .single-screenshot {
     position: relative;
     -webkit-transform: scale(0.9);
@@ -1333,9 +1384,11 @@ img {
     box-shadow: 0 1px 5px #7c4fe0;
 }
 
+
 /* ******************************
 :: 15.0 REVIEWS AREA CSS
 ****************************** */
+
 .single-review {
     -webkit-box-shadow: 0 0.313rem 0.875rem rgba(45, 49, 54, 0.09);
     box-shadow: 0 0.313rem 0.875rem rgba(45, 49, 54, 0.09);
@@ -1374,9 +1427,11 @@ img {
     box-shadow: 0 1rem 3rem rgba(31, 45, 61, .125);
 }
 
+
 /* ******************************
 :: 16.0 TESTIMONIAL AREA CSS
 ****************************** */
+
 .testimonial-area .owl-item img {
     width: 100px;
     height: 100px;
@@ -1415,9 +1470,11 @@ img {
     transition: all 0.4s ease 0s;
 }
 
+
 /* ******************************
 :: 17.0 PRICE PLAN AREA CSS
 ****************************** */
+
 .single-price-plan {
     -webkit-box-shadow: 0 0.313rem 0.875rem rgba(45, 49, 54, 0.09);
     box-shadow: 0 0.313rem 0.875rem rgba(45, 49, 54, 0.09);
@@ -1425,12 +1482,12 @@ img {
     border-radius: 1rem;
 }
 
-.plan-title > h3 {
+.plan-title>h3 {
     letter-spacing: 3px;
     opacity: 0.8;
 }
 
-.plan-price > h1 > small {
+.plan-price>h1>small {
     font-size: 60%;
 }
 
@@ -1441,9 +1498,11 @@ img {
     transform: translateX(-50%);
 }
 
+
 /* ******************************
 :: 18.0 FAQ AREA CSS
 ****************************** */
+
 .card-header .btn {
     position: relative;
     display: block;
@@ -1492,15 +1551,17 @@ img {
     cursor: inherit;
 }
 
+
 /* ******************************
 :: 19.0 TEAM AREA CSS
 ****************************** */
+
 .single-team {
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
 }
 
-.team-thumb > img {
+.team-thumb>img {
     -webkit-transform: scale(1.0);
     transform: scale(1.0);
     -webkit-transition: all 0.3s ease-in-out 0s;
@@ -1580,14 +1641,16 @@ img {
     transform: scale(1);
 }
 
-.single-team:hover .team-thumb > img {
+.single-team:hover .team-thumb>img {
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
 }
 
+
 /* ******************************
 :: 20.0 SUBSCRIBE AREA CSS
 ****************************** */
+
 .form-control {
     font-size: 15px;
     height: 60px;
@@ -1631,9 +1694,11 @@ img {
     background: #7c4fe0 !important;
 }
 
+
 /* ******************************
 :: 21.0 BLOG AREA CSS
 ****************************** */
+
 .blog-area {
     z-index: 1;
 }
@@ -1651,7 +1716,7 @@ img {
     border-radius: 6px;
 }
 
-.blog-content > p {
+.blog-content>p {
     line-height: 1.8;
 }
 
@@ -1688,15 +1753,17 @@ img {
     box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1);
 }
 
+
 /* ******************************
 :: 22.0 BREADCRUMB AREA CSS
 ****************************** */
+
 .breadcrumb-area {
     height: 450px;
     z-index: 1;
 }
 
-.breadcrumb-content > h3 {
+.breadcrumb-content>h3 {
     font-size: 38px;
 }
 
@@ -1705,21 +1772,23 @@ img {
     margin: 0;
 }
 
-.breadcrumb-item + .breadcrumb-item::before {
+.breadcrumb-item+.breadcrumb-item::before {
     content: ">";
     color: #fff;
 }
 
-.blog .breadcrumb-item > a,
+.blog .breadcrumb-item>a,
 .blog .breadcrumb-item,
 .blog .breadcrumb-item::before,
 .blog .breadcrumb-item.active {
     color: #fff;
 }
 
+
 /* ******************************
 :: 23.0 BLOG PAGE AREA CSS
 ****************************** */
+
 .blog .navbar-light .navbar-toggler-icon {
     background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
@@ -1728,7 +1797,7 @@ img {
     margin-bottom: 45px;
 }
 
-.pagination > li > a {
+.pagination>li>a {
     font-size: 14px;
     height: 40px;
     width: 40px;
@@ -1763,10 +1832,14 @@ img {
     transform: translateX(4px);
 }
 
+
 /* **********************************
 :: 24.0 BLOG PAGE DETAILS AREA CSS
 *************************************/
+
+
 /*Single Widget*/
+
 .single-widget {
     margin-bottom: 35px;
 }
@@ -1779,7 +1852,9 @@ img {
     position: relative;
 }
 
+
 /*Search Widget*/
+
 .search-widget input {
     background-color: #f7f7f7;
     border: 1px solid #eee;
@@ -1798,7 +1873,9 @@ img {
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
 
+
 /*Catagory Widget*/
+
 .widget .single-accordion {
     border: 1px solid #eee;
     border-radius: 4px;
@@ -1848,7 +1925,9 @@ img {
     line-height: 1.4;
 }
 
+
 /*Post Widget*/
+
 .post-thumb img {
     border: 1px solid #eee;
 }
@@ -1863,7 +1942,9 @@ img {
     line-height: 20px;
 }
 
+
 /*Tags Widget*/
+
 .tags-widget .single-accordion {
     border: none;
 }
@@ -1873,16 +1954,18 @@ img {
     font-size: 12px;
 }
 
+
 /*Blog Details*/
+
 .sApp-blog .meta-info {
     border-bottom: 1px solid #eee;
 }
 
-.meta-info > ul > li {
+.meta-info>ul>li {
     position: relative;
 }
 
-.meta-info > ul > li::after {
+.meta-info>ul>li::after {
     position: absolute;
     content: '';
     height: 30%;
@@ -1894,7 +1977,7 @@ img {
     transform: translateY(-50%);
 }
 
-.meta-info > ul > li:last-child::after {
+.meta-info>ul>li:last-child::after {
     display: none;
 }
 
@@ -1902,23 +1985,23 @@ img {
     padding: 0 10px;
 }
 
-.blog-share .social-icons > a {
+.blog-share .social-icons>a {
     width: 35px;
     height: 35px;
     font-size: 16px;
 }
 
-.blog-share .social-icons > a.facebook:hover {
+.blog-share .social-icons>a.facebook:hover {
     background-color: #3b5999 !important;
     color: #fff;
 }
 
-.blog-share .social-icons > a.twitter:hover {
+.blog-share .social-icons>a.twitter:hover {
     background-color: #55acee !important;
     color: #fff;
 }
 
-.blog-share .social-icons > a.google-plus:hover {
+.blog-share .social-icons>a.google-plus:hover {
     background-color: #dd4b39 !important;
     color: #fff;
 }
@@ -1927,11 +2010,11 @@ img {
     line-height: 35px;
 }
 
-.blog-share .social-icons > a:hover svg:first-child {
+.blog-share .social-icons>a:hover svg:first-child {
     margin-top: -35px;
 }
 
-.sApp-blog .blog-details .blog-title > a {
+.sApp-blog .blog-details .blog-title>a {
     font-size: 24px;
 }
 
@@ -1976,7 +2059,7 @@ img {
     margin-bottom: 0;
 }
 
-.comments-content > h5 > a:last-child {
+.comments-content>h5>a:last-child {
     font-size: 14px;
     font-weight: 500;
     color: #7c4fe0;
@@ -2001,9 +2084,11 @@ img {
     padding-top: 80px;
 }
 
+
 /* ******************************
 :: 25.0 CONTACT AREA CSS
 ****************************** */
+
 .contact-us .social-icon {
     display: inline-block;
     height: 45px;
@@ -2057,7 +2142,9 @@ img {
     background: #7c4fe0 !important;
 }
 
+
 /*Map Area*/
+
 .map-area {
     height: 550px;
     width: 100%;
@@ -2074,36 +2161,40 @@ img {
     }
 }
 
-.homepage-5 .contact-top > h3 {
+.homepage-5 .contact-top>h3 {
     font-size: 2em;
 }
+
 .homepage-5 .contact-top h5 {
     line-height: 1.4;
 }
 
-.contact-bottom > span {
+.contact-bottom>span {
     font-size: 13px;
 }
-.contact-bottom > span a {
+
+.contact-bottom>span a {
     text-decoration: underline;
     color: #222;
 }
 
+
 /* ******************************
 :: 26.0 FOOTER AREA CSS
 ****************************** */
+
 .height-emulator {
     float: left;
-    height: 585px;
+    height: 50px;
 }
 
-.footer-area .social-icons > a {
+.footer-area .social-icons>a {
     width: 40px;
     height: 40px;
     font-size: 18px;
 }
 
-.footer-area .social-icons > a:hover svg:first-child {
+.footer-area .social-icons>a:hover svg:first-child {
     margin-top: -40px;
 }
 
@@ -2111,9 +2202,11 @@ img {
     border-top: 1px solid rgba(0, 0, 0, 0.2);
 }
 
+
 /* ******************************
 :: 27.0 ERROR AREA CSS
 ****************************** */
+
 .error-area h1 {
     font-size: 18vmax;
 }
@@ -2130,19 +2223,21 @@ img {
     }
 }
 
+
 /* ******************************
 :: 28.0 COMING SOON AREA CSS
 ****************************** */
+
 .countdown {
     text-transform: uppercase;
     color: #fff;
 }
 
-.countdown > div {
+.countdown>div {
     display: inline-block;
 }
 
-.countdown > div > span {
+.countdown>div>span {
     display: block;
     text-align: center;
 }
@@ -2186,14 +2281,16 @@ img {
     }
 }
 
+
 /* ******************************
 :: 29.0 PREVIEW AREA CSS
 ****************************** */
+
 .preview .welcome-intro h2 {
     line-height: 1.2;
 }
 
-.single-preview >a > img {
+.single-preview>a>img {
     box-shadow: 0 0.313rem 0.875rem rgba(45, 49, 54, 0.09);
     border-radius: 8px;
     transition: all 0.3s ease 0s;
@@ -2205,7 +2302,7 @@ img {
     transition: all 0.3s ease 0s;
 }
 
-.single-preview:hover > a > img {
+.single-preview:hover>a>img {
     transform: translateY(-10px);
     box-shadow: 0 0.313rem 0.875rem rgba(45, 49, 54, 0.12);
 }
