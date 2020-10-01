@@ -386,6 +386,10 @@ img {
     z-index: -1;
 }
 
+.boton {
+    margin-top: 10px;
+}
+
 .btn.sApp-btn:hover:after,
 .btn.sApp-btn:focus:after {
     opacity: 0;
@@ -395,6 +399,14 @@ img {
 .btn-success {
     background: #28a745 !important;
     border-color: #28a745 !important;
+}
+
+div.button-group.store-buttons.d-flex {
+    justify-content: center;
+}
+
+.center {
+    text-align: center;
 }
 
 .button-group {
@@ -1340,6 +1352,10 @@ img {
     .single-work::after {
         display: none;
     }
+}
+
+h1.text-white {
+    text-align: center;
 }
 
 
